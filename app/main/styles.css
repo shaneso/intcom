@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    text-decoration: none;
+}
+::selection {
+    background-color: #000;
+    color: white;
+    opacity: 0.5;
+}
+.background {
+    height: auto;
+    width: 150vh;
+}
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60vh;
+    height: auto;
+    width: 1000px;
+}
+.heroimg {
+    width: 1000px;
+}
+.navbar .logo a {
+    font-size: 10px;
+    color: #333;
+}
+.logo li {
+    list-style: none;
+}
+.title {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.titlesection {
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    color: #333;
+}
+.logoimg {
+    width: 100px;
+    height: auto;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+.navbar .menu li a {
+    color: #333;
+    margin-left: 37px;
+    font-family: 'Inter';
+    font-size: 11px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+body {
+    animation: transition 1s;
+    display: block;
+}
+.navbar {
+    position: static;
+    width: 100%;
+    padding: 15px 0;
+    background: white;
+}
+nav {
+    display: block;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.background {
+    height: auto;
+    width: 150vh;
+}
+.max-width {
+    max-width: 1000px;
+    padding: 0 80px;
+    margin: auto;
+}
+.description-width {
+    justify-content: center;
+    text-align: center;
+}
+.button {
+    margin-top: 40px;
+    background-color: transparent;
+    border-color: 1px #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    display: inline-block;
+}
+.button:hover {
+    border-color: transparent;
+    color: white;
+    animation: gradientbg 3s ease-in-out infinite;
+    cursor: pointer;
+}
+@keyframes transition {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes gradientbg {
+    0% {background-color: white;}
+    10% {background-color: #C3FFF0;}
+    20% {background-color: #A5FFE9;}
+    30% {background-color: #65FFDA;}
+    40% {background-color: #5CF5FF;}
+    50% {background-color: #5CD8FF;}
+    60% {background-color: #5CF5FF;}
+    70% {background-color: #65FFDA;}
+    80% {background-color: #A5FFE9;}
+    90% {background-color: #C3FFF0;}
+    100% {background-color: white;}
+}
